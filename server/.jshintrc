@@ -1,0 +1,26 @@
+{
+    "esversion": 8,
+    "node": true,
+    "strict": false,
+    "globalstrict": false,
+    "undef": true,
+    "unused": true,
+    "latedef": false,
+    "predef": [
+        "console",
+        "require",
+        "module",
+        "exports",
+        "__dirname",
+        "__filename",
+        "global",
+        "process",
+        "Buffer",
+        "setTimeout",
+        "setInterval",
+        "clearTimeout",
+        "clearInterval"
+    ],
+    "browser": false,
+    "devel": true
+}

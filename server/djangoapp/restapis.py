@@ -28,6 +28,8 @@ def get_request(endpoint, **kwargs):
     except Exception as e:
         # If any error occurs
         print("Network exception occurred:", e)
+
+
 def analyze_review_sentiments(text):
     # Tạo URL gọi tới sentiment analyzer service
     request_url = sentiment_analyzer_url + "analyze/" + text
